@@ -1,6 +1,6 @@
 # INFO6150 Week 1 Assignments
 Due by the beginning of class, week 2 (September 11).
-You may revise once by the beginning of class, week 3 (September 17).
+You may revise once by the beginning of class, week 3 (September 18).
 
 
 1. Come up with 4 **different** websites:
