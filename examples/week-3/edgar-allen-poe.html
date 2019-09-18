@@ -234,7 +234,7 @@
       <aside>
         <p>Please sign up for my <b>All About Poe</b> newsletter!</p>
 
-        <form action="week-3.html" method="POST">
+        <form action="edgar-allen-poe.html" method="POST">
           <fieldset>
             <legend>Personal Information</legend>
             <div>
@@ -246,7 +246,7 @@
             <div>
 
               <label for="email">
-                Email: <input type="text" id="email" name="email" />
+                Email: <input type="text" id="email" name="email" required="required" />
               </label>
             </div>
             <div>
@@ -261,16 +261,16 @@
                 Age
               </label>
               <label for="0-20"
-                ><input type="radio" id="0-20" name="age" checked="checked" /> 0-20</label
+                ><input type="radio" id="0-20" name="age" checked="checked" value="0-20" /> 0-20</label
               >
               <label for="21-40"
-                ><input type="radio" id="21-40" name="age" />21-40</label
+                ><input type="radio" id="21-40" name="age" value="21-40" />21-40</label
               >
               <label for="41-60"
-                ><input type="radio" id="41-60" name="age" />41-60</label
+                ><input type="radio" id="41-60" name="age" value="41-60" />41-60</label
               >
               <label for="61+"
-                ><input type="radio" id="61+" name="age" />61+</label
+                ><input type="radio" id="61+" name="age" value="61+" />61+</label
               >
             </div>
 
@@ -293,7 +293,7 @@
             <div>
               <label for="favorite-work">
                 Favorite Poe Work:
-                <select id="favorite-work" multiple="multiple">
+                <select id="favorite-work" name="favorite-work" multiple="multiple">
                   <optgroup label="Poems">
                     <option value="The Raven">The Raven</option>
                     <option value="Lenore">Lenore</option>
