@@ -23,9 +23,9 @@ ArticleListItem.jsx accepts 1 prop:
 ### article attributes
 You should create valid, semantically-appropriate HTML to display the following article attributes (these can be viewed in `src/data/articles.json`). 
 
-title: the title of the article
-shortText: a short description of the article
-pubDate: the publishing date of the article
+* title: the title of the article
+* shortText: a short description of the article
+* pubDate: the publishing date of the article
 
 Consider block level and inline HTML elements, how you should properly display the date, etc. Make sure to validate your text with an HTML validator like http://validator.w3.org!
 
@@ -40,7 +40,7 @@ Your component should also include a button that says "show article slug" and, w
 In `src/ArticleList/ArticleList.jsx`, import and render the functional component so that the list of all the articles are displayed on the main app page (http://localhost:3000). Don't forget to pass the article prop to it!
 
 ## start the webapp
-Start the webapp and verify that it looks something like <a href="./week-4-component.png">this screenshot</a>. **Your formatting does not need to be exactly the same. You will be graded on valid HTML and the functionality of your component.**
+Start the webapp and verify that it looks something like <a href="./week-4-screenshot.png">this screenshot</a>. **Your formatting does not need to be exactly the same. You will be graded on valid HTML and the functionality of your component.**
 
 ```
 npm start
