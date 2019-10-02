@@ -196,21 +196,32 @@ blockquote::first-letter {
 }
 
 #signup-form label {
-    display: block;
-    margin-top: 1rem;
+  display: block;
+  margin-top: 1rem;
 }
 #signup-form .age label {
-    display: inline-block;
+  display: inline-block;
+}
+
+
+#signup-form .age label ~ label {
+    background: purple;
+    color: #fff;
+}
+
+#signup-form .age label:first-child + label {
+    background: #f00;
+    color: #fff;
 }
 
 #signup-form input[type="text"],
 #signup-form input[type="tel"],
 #signup-form select {
-    display: block;
+  display: block;
 }
 
 #signup-form label > input[type="radio"] {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 #signup-form input[type="submit"] {
@@ -218,9 +229,14 @@ blockquote::first-letter {
   border: 0;
   color: #fff;
   font-size: 5rem;
-  padding: .5em;
-  position: absolute; 
+  padding: 0.5em;
+  position: absolute;
   bottom: 0;
   right: 0;
   text-transform: capitalize;
+}
+
+#favorite-work option:first-child {
+    background: purple;
+    color: #fff;
 }
