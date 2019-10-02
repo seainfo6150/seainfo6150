@@ -19,8 +19,12 @@ Create a new functional component in `ArticleList` named `SlugButton.jsx` that, 
 * buttonText: a string, the display text of the button
 * slug: a string, the slug of an article
 
+
 ## import and use the component
 In `src/ArticleList/ArticleListItem.jsx`, import and use your new `SlugButton` component. You will pass this new component 2 props: the article's author for the buttonText prop and the article's slug for the slug prop. (These can be viewed in `src/data/articles.json`)
+
+ Make sure to validate your components with an HTML validator like http://validator.w3.org!
+
 
 ## style the components
 Create styles for the three components in `ArticleList` in files named 
@@ -30,6 +34,7 @@ Create styles for the three components in `ArticleList` in files named
 * `SlugButton.module.css` 
 
 Make sure to import the css into `ArticleList/ArticleList.jsx`, `ArticleList/ArticleListItem.jsx`, and  `ArticleList/SlugButton.jsx` as demonstrated in class using CSS modules. Please style your components to match <a href="./week-5-screenshot.png">this screenshot</a> as closely as possible.
+
 
 ## start the webapp
 Start the webapp and verify that it is displayed as shown in <a href="./week-5-screenshot.png">this screenshot</a>.
