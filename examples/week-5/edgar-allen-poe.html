@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Edgar Allen Poe</title>
+    <style>
+      body {
+        color: #f00;
+      }
+      .page-chrome {
+        background: #00c;
+      }
+    </style>
     <link rel="stylesheet" href="./edgar.css" />
   </head>
   <body>
@@ -21,7 +29,7 @@
     <main>
       <article>
         <header id="article-header">
-          <h1 id="article-title">The Life and Times of Edgar Allen Poe</h1>
+          <h1 id="article-title" style="font-size: 10rem;">The Life and Times of Edgar Allen Poe</h1>
           <time datetime="2019-09-15">September 15, 2019</time>
           <address>
             By April Bingham<br />
@@ -96,129 +104,133 @@
           </p>
         </section>
         <aside id="signup-form">
-                <header>
-                  <h3>Please sign up for my <b>All About Poe</b> newsletter!</h3>
-                </header>
-        
-                <form action="edgar-allen-poe.html" method="POST">
-                  <fieldset>
-                    <legend>Personal Information</legend>
-                    <div>
-                      <label for="full-name">
-                        Full name:
-                        <input
-                          type="text"
-                          id="full-name"
-                          name="full-name"
-                          value="Jane Q. Public"
-                        />
-                      </label>
-                    </div>
-                    <div>
-                      <label for="email">
-                        Email:
-                        <input
-                          type="text"
-                          id="email"
-                          name="email"
-                          required="required"
-                        />
-                      </label>
-                    </div>
-                    <div>
-                      <label for="telephone">
-                        Telephone: <input type="tel" id="telephone" name="telephone" />
-                      </label>
-                    </div>
-                    <div class="age">
-                      <label>
-                        Age
-                      </label>
-                      <label for="0-20"
-                        ><input
-                          type="radio"
-                          id="0-20"
-                          name="age"
-                          checked="checked"
-                          value="0-20"
-                        />
-                        0-20</label
+          <header>
+            <h3>Please sign up for my <b>All About Poe</b> newsletter!</h3>
+          </header>
+
+          <form action="edgar-allen-poe.html" method="POST">
+            <fieldset>
+              <legend>Personal Information</legend>
+              <div>
+                <label for="full-name">
+                  Full name:
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    value="Jane Q. Public"
+                  />
+                </label>
+              </div>
+              <div>
+                <label for="email">
+                  Email:
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    required="required"
+                  />
+                </label>
+              </div>
+              <div>
+                <label for="telephone">
+                  Telephone:
+                  <input type="tel" id="telephone" name="telephone" />
+                </label>
+              </div>
+              <div class="age">
+                <label>
+                  Age
+                </label>
+                <label for="0-20"
+                  ><input
+                    type="radio"
+                    id="0-20"
+                    name="age"
+                    checked="checked"
+                    value="0-20"
+                  />
+                  0-20</label
+                >
+                <label for="21-40"
+                  ><input
+                    type="radio"
+                    id="21-40"
+                    name="age"
+                    value="21-40"
+                  />21-40</label
+                >
+                <label for="41-60"
+                  ><input
+                    type="radio"
+                    id="41-60"
+                    name="age"
+                    value="41-60"
+                  />41-60</label
+                >
+                <label for="61+"
+                  ><input
+                    type="radio"
+                    id="61+"
+                    name="age"
+                    value="61+"
+                  />61+</label
+                >
+              </div>
+
+              <div>
+                <label for="education">
+                  Highest Education Level:
+                  <select id="education">
+                    <option value="High school">High school</option>
+                    <option value="Some college">Some college</option>
+                    <option value="Bachelors degree">Bachelors degree</option>
+                    <option value="Masters degree">Masters degree</option>
+                    <option value="Doctorate degree">Doctorate degree</option>
+                  </select>
+                </label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Interests</legend>
+              <div>
+                <label for="favorite-work">
+                  Favorite Poe Work:
+                  <select
+                    id="favorite-work"
+                    name="favorite-work"
+                    multiple="multiple"
+                  >
+                    <optgroup label="Poems">
+                      <option value="The Raven">The Raven</option>
+                      <option value="Lenore">Lenore</option>
+                      <option value="The Bells">The Bells</option>
+                    </optgroup>
+                    <optgroup label="Stories">
+                      <option value="The Black Cat">The Black Cat</option>
+                      <option value="The Cask of Amontillado"
+                        >Amontillado</option
                       >
-                      <label for="21-40"
-                        ><input
-                          type="radio"
-                          id="21-40"
-                          name="age"
-                          value="21-40"
-                        />21-40</label
-                      >
-                      <label for="41-60"
-                        ><input
-                          type="radio"
-                          id="41-60"
-                          name="age"
-                          value="41-60"
-                        />41-60</label
-                      >
-                      <label for="61+"
-                        ><input
-                          type="radio"
-                          id="61+"
-                          name="age"
-                          value="61+"
-                        />61+</label
-                      >
-                    </div>
-        
-                    <div>
-                      <label for="education">
-                        Highest Education Level:
-                        <select id="education">
-                          <option value="High school">High school</option>
-                          <option value="Some college">Some college</option>
-                          <option value="Bachelors degree">Bachelors degree</option>
-                          <option value="Masters degree">Masters degree</option>
-                          <option value="Doctorate degree">Doctorate degree</option>
-                        </select>
-                      </label>
-                    </div>
-                  </fieldset>
-                  <fieldset>
-                    <legend>Interests</legend>
-                    <div>
-                      <label for="favorite-work">
-                        Favorite Poe Work:
-                        <select
-                          id="favorite-work"
-                          name="favorite-work"
-                          multiple="multiple"
-                        >
-                          <optgroup label="Poems">
-                            <option value="The Raven">The Raven</option>
-                            <option value="Lenore">Lenore</option>
-                            <option value="The Bells">The Bells</option>
-                          </optgroup>
-                          <optgroup label="Stories">
-                            <option value="The Black Cat">The Black Cat</option>
-                            <option value="The Cask of Amontillado">Amontillado</option>
-                            <option value="The Facts in the Case of M. Valdemar">
-                              The Facts in the Case of M. Valdemar
-                            </option>
-                          </optgroup>
-                        </select>
-                      </label>
-                    </div>
-                  </fieldset>
-                  <fieldset>
-                    <input type="submit" value="Subscribe me!" />
-                  </fieldset>
-                </form>
-        
-                <div>
-                  Check out my website,
-                  <a href="http://allaboutpoe.org" target="_blank">allaboutpoe.org</a>!
-                </div>
-              </aside>        
+                      <option value="The Facts in the Case of M. Valdemar">
+                        The Facts in the Case of M. Valdemar
+                      </option>
+                    </optgroup>
+                  </select>
+                </label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <input type="submit" value="Subscribe me!" />
+            </fieldset>
+          </form>
+
+          <div>
+            Check out my website,
+            <a href="http://allaboutpoe.org" target="_blank">allaboutpoe.org</a
+            >!
+          </div>
+        </aside>
         <section class="article-section">
           <h3>Writing</h3>
           <p>
@@ -367,7 +379,6 @@
           </p>
         </section>
       </article>
-
     </main>
     <footer id="page-footer" class="page-chrome">
       <h3>Citations</h3>
