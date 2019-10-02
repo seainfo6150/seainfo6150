@@ -4,12 +4,12 @@ You may revise once by the beginning of class, week 7 (October 16).
 
 This week you will be practicing working in the web app, creating a branch from an existing branch, creating a couple of React components and adding styling. 
 
-## fetch branches and create a week-5 branch that tracks the upstream/week-5 branch
-This means that a local branch is created from the `week-5` branch from upstream
+## create a week-5 branch from your week-4 branch
+This means that a local branch is created from the `week-4` branch you created in week 4. **Make sure that you have completed week 4's assignment and any revisions you wish to make before starting this week's assignment.**
 ```
 cd seainfo6150-webapp
-git fetch upstream
-git checkout --track upstream/week-5
+git checkout week-4
+git checkout -b week-5
 ```
 
 ## create a button component
