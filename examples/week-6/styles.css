@@ -1,0 +1,170 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #ccc;
+  font-size: 2rem;
+  padding-bottom: 5rem;
+}
+
+#firefox-svg {
+  width: 30rem;
+}
+
+#background-firefox-svg {
+  width: 30rem;
+  height: 30rem;
+  background-image: url(firefox.svg);
+  text-indent: -99999rem;
+}
+
+#background-firefox-png {
+  background-image: url(firefox.png), url(treefrog.jpg);
+  background-repeat: no-repeat, repeat-x;
+}
+
+#circle2 circle {
+  fill: #0c0;
+  stroke: #cc0;
+}
+#circle2 circle:hover {
+  fill: #cc0;
+  stroke: #0c0;
+}
+#background-circle-datauri {
+  width: 40rem;
+  height: 70rem;
+  text-indent: -99999rem;
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNlPSJodHRwOi8vc3ZnLWVkaXQuZ29vZ2xlY29kZS5jb20iIGRhdGEtbmFtZT0iQ2lyY2xlIC0gTGFyZ2UiPgogICAgICA8IS0tIENyZWF0ZWQgd2l0aCBTVkctZWRpdCAtIGh0dHBzOi8vZ2l0aHViLmNvbS9TVkctRWRpdC9zdmdlZGl0LS0+CiAgICAgIDxnIGlkPSJjaXJjbGUxIiBjbGFzcz0ibGF5ZXIiPgogICAgICAgIDx0aXRsZT5MYXllciAxPC90aXRsZT4KICAgICAgICA8Y2lyY2xlIGN4PSIxNzUuNSIgY3k9IjI3MS41IiBmaWxsPSIjRkYwMDAwIiBpZD0ic3ZnXzMiIHI9IjEzMS4yNDQwNSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjUiLz4KICAgICAgPC9nPgo8L3N2Zz4=");
+}
+
+.gradient {
+  height: 10rem;
+}
+
+#linear-gradient {
+  background-image: linear-gradient(#c00, green);
+}
+#linear-gradient-ltr {
+  background-image: linear-gradient(to right, #c00, green);
+}
+#linear-gradient-top-left-bottom-right {
+  background-image: linear-gradient(to bottom right, #c00, green);
+}
+#linear-gradient-top-right-bottom-left {
+  background-image: linear-gradient(315deg, #c00, green);
+}
+#linear-gradient-rainbow {
+  background-image: linear-gradient(
+    to right,
+    red,
+    #f06d06,
+    rgb(255, 255, 0),
+    green
+  );
+}
+#linear-gradient-color-stop {
+  background-image: linear-gradient(
+    to right,
+    #c00,
+    green 15%
+  );
+}
+#linear-gradient-color-stop-line {
+  background-image: linear-gradient(
+    to right,
+    #c00,
+    #c00 20rem,
+    green 20rem
+  );
+}
+
+#radial-gradient {
+  background-image: radial-gradient(red, green);
+}
+#radial-gradient-circle {
+  height: 30rem;
+  background-image: radial-gradient(circle, red, green);
+}
+#radial-gradient-rainbow {
+  height: 30rem;
+  background-image: radial-gradient(
+    circle,
+    red,
+    #f06d06,
+    rgb(255, 255, 0),
+    green
+  );
+}
+#radial-gradient-top-right {
+  height: 30rem;
+  background-image: radial-gradient(circle at top right, red, green);
+}
+#radial-gradient-color-stop-line {
+  background-image: radial-gradient(
+    circle,
+    #c00,
+    #c00 5rem,
+    green 5rem
+  );
+}
+
+.shadow {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  background: #eee;
+}
+
+#shadow-zero-offset { box-shadow: 0 0 10px 10px red; }
+#shadow-positive-positive { box-shadow: 10px 10px 10px 10px red; }
+#shadow-positive-negative { box-shadow: 10px -10px 10px 10px red; }
+#shadow-negative-positive { box-shadow: -10px 10px 10px 10px red; }
+#shadow-negative-negative { box-shadow: -10px -10px 10px 10px red; }
+#shadow-zero-blur { box-shadow: 10px 10px 0 10px red; }
+#shadow-zero-spread { box-shadow: 10px 10px 10px 0 red; }
+#shadow-color { box-shadow: 10px 10px 10px rgba(0, 0, 255, .5); }
+#shadow-inset { box-shadow: inset 0 0 10px 10px red; }
+#shadow-multiple {
+  box-shadow: 10px 10px 10px 10px red, -5px -5px 5px 5px rgba(0, 0, 255, .5);
+}
+
+#animation {
+  height: 10rem;
+}
+
+@keyframes slide {
+  0% {
+    height: 1rem;
+    width: 1rem;
+    background: red;
+    left: 0;
+  }
+  50% {
+    height: 5rem;
+    width: 5rem;
+    background: orange;
+    left: 50%;
+  }
+  100% {
+    height: 10rem;
+    width: 10rem;
+    background: yellow;
+    left: 90%;
+  }
+}
+
+#animated-box {
+  position: relative;
+
+  animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+#animated-box:hover {
+  animation-play-state: paused;
+}
