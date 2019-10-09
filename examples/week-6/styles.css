@@ -110,20 +110,6 @@ body {
   );
 }
 
-#conic-gradient {
-  background-image: conic-gradient(red, green);
-}
-#conic-gradient-rainbow {
-  background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
-}
-#conic-gradient-color-stop-line {
-  background-image: conic-gradient(
-    #c00,
-    #c00 30%,
-    green 30%
-  );
-}
-
 .shadow {
   height: 10rem;
   width: 10rem;
