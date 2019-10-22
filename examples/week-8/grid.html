@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grid example</title>
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Grid example</h1>
+    </header>
+    <main>
+      <h2>Grid</h2>
+      <div id="grid" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Inline grid</h2>
+      <div id="grid-inline" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Fixed width rows</h2>
+      <div id="grid-fixed-rows" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Fixed width cols</h2>
+      <div id="grid-fixed-cols" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Fr rows and cols</h2>
+      <div id="grid-fr" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Auto rows and cols</h2>
+      <div id="grid-auto" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Auto column flow</h2>
+      <div id="grid-auto-columns" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Repeat cols</h2>
+      <div id="grid-repeat" class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Minmax</h2>
+      <div id="grid-minmax" class="grid-container">
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae dictum tellus.</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultrices sit amet dui vel condimentum. Aliquam quis congue ante. Vestibulum pulvinar lorem et pellentesque porta. Vivamus molestie porta nisi, id egestas lorem dignissim non. </div>
+        <div>3</div>
+        <div>Fusce viverra nisl eu urna interdum, id posuere ipsum commodo. Vivamus tempor libero non turpis blandit condimentum. Cras eget neque molestie, luctus nisl eu, faucibus ligula. Aenean placerat orci non tellus dapibus, et pharetra arcu semper. Donec rhoncus tempor ligula quis viverra. Cras lobortis pellentesque odio. Nunc id ex a tellus consectetur fermentum vel a metus. Nunc finibus, felis finibus hendrerit aliquam, diam felis iaculis urna, eu mollis risus nulla a magna. In nunc neque, varius vitae faucibus quis, cursus ut felis. In tempor ligula ut est euismod ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut dictum sodales posuere. Fusce feugiat, nibh eu dictum consectetur, erat velit varius nisi, at pharetra dui mi id nunc. Proin aliquam nisi non urna elementum, nec sollicitudin lorem pharetra. Mauris tincidunt metus a est ultrices porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+        <div>5</div>
+        <div>6</div>
+      </div>
+
+      <hr />
+      <h2>Row gap</h2>
+      <div id="grid-row-gap" class="grid-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Column gap</h2>
+      <div id="grid-column-gap" class="grid-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Gap</h2>
+      <div id="grid-gap" class="grid-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+      </div>
+
+      <hr />
+      <h2>Positioning by grid line numbers</h2>
+      <div id="grid-position-line-numbers" class="grid-container">
+          <div>This is positioned</div>
+          <div>This is also positioned</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>                
+      </div>
+
+      <hr />
+      <h2>Positioning by grid line names</h2>
+      <div id="grid-position-line-names" class="grid-container">
+          <div>This is positioned</div>
+          <div>This is also positioned</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>                
+      </div>
+
+      <hr />
+      <h2>Overlapping positioned columns</h2>
+      <div id="grid-overlapping" class="grid-container">
+          <div>This is positioned</div>
+          <div>This is also positioned</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>                  
+      </div>
+    </main>
+  </body>
+</html>
