@@ -1,7 +1,7 @@
 # INFO6150 Week 8 Assignments
 
 Due by the beginning of class, week 9 (October 30).
-You may revise up to 2 times by the beginning of class, week 10 (November 6).
+You may revise once by the beginning of class, week 10 (November 6).
 
 This week you will be practicing adding flexbox and grid to your components from last week.
 
