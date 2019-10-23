@@ -1,6 +1,6 @@
 # INFO6150 Week 6 Assignments
 Due by the beginning of class, week 7 (October 16).
-You may revise once by the beginning of class, week 8 (October 24).
+You may revise once by the beginning of class, week 8 (October 23).
 
 This week you will be practicing adding more styling to your components from last week.
 

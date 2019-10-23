@@ -1,0 +1,13 @@
+main {
+    column-count: 5;
+    /* column-width: 10rem; */
+    /* columns: 20 8em; */
+    /* column-gap: 50px; */
+}
+
+p {
+    margin: 0;
+}
+p + p {
+    margin-top: 1rem;
+}
