@@ -34,7 +34,8 @@
 
 /* reverse */
 #reverse {
-  flex-flow: row-reverse;
+  flex-flow: row-reverse;  
+  /* 可以变成column */
 }
 
 /* justify */
