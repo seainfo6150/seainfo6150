@@ -1,0 +1,66 @@
+body {
+  background: #ccc;
+}
+
+@media (min-width: 320px) {
+  body {
+    background: #c00;
+  }
+}
+@media (min-width: 500px) {
+  body {
+    background: #0c0;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    background: #00c;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px){
+  body {
+    background: #000;
+  }
+}
+/* 
+#responsive {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #000;
+  padding: 1rem;
+}
+
+.responsive-child {
+  flex: 1;
+  background: #c00;
+  color: #fff;
+  margin: 1rem;
+  height: 10rem;
+}
+
+#adaptive {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #000;
+  padding: 1rem;
+  width: 700px;
+}
+
+.adaptive-child {
+  flex: 1;
+  background: #00c;
+  color: #fff;
+  margin: 1rem;
+  height: 10rem;
+}
+
+@media (min-width: 700px) {
+  #adaptive {
+    width: 500px;
+    flex-flow: column wrap;
+  }
+} */

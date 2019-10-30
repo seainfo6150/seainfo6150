@@ -123,6 +123,23 @@
   width: 500px;
 }
 
+/* order */
+#flex-order #one {
+  order: 3;
+}
+#flex-order #two {
+  order: 4;
+}
+#flex-order #three {
+  order: 5;
+}
+#flex-order #four {
+  order: 1;
+}
+#flex-order #five {
+  order: 2;
+}
+
 /* flex grow */
 .flex-grow {
   width: 1002px;
@@ -152,6 +169,9 @@
 }
 .flex-shrink > div {
   width: 200px;
+}
+#flex-shrink-all-children > div {
+  flex-shrink: 1;
 }
 #flex-shrink > div {
   flex-shrink: 0;

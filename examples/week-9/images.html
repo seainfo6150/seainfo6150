@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week 9: Images example</title>
+    <link rel="stylesheet" href="images.css">
+  </head>
+  <body>
+    <main>
+      <!-- begin images -->
+      <div id="firefox-wrapper">
+        <img id="firefox" src="firefox.svg" alt="firefox logo">
+      </div>
+      <div id="kitten-wrapper">
+        <img id="kitten" src="http://placekitten.com/200/200" alt="kitten picture">
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-contain">
+        <p>This is a kitten with <code>background-size: contain</code>.</p>
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-cover">
+        <p>This is a kitten with <code>background-size: cover</code>.</p>
+      </div>
+      <div class="kitten-wrapper" id="kitten-wrapper-bg-100">
+        <p>This is a kitten with <code>background-size: 100% 100%</code>.</p>
+      </div>
+      <!-- end images -->
+
+      <!-- begin responsive -->
+        <!-- <section id="responsive">
+          <div class="responsive-child">responsive child</div>
+          <div class="responsive-child">responsive child</div>
+          <div class="responsive-child">responsive child</div>
+          <div class="responsive-child">responsive child</div>
+          <div class="responsive-child">responsive child</div>
+        </section> -->
+      <!-- end responsive -->
+
+      <!-- begin adaptive -->
+      <!-- <section id="adaptive">
+        <div class="adaptive-child">adaptive child</div>
+        <div class="adaptive-child">adaptive child</div>
+        <div class="adaptive-child">adaptive child</div>
+        <div class="adaptive-child">adaptive child</div>
+        <div class="adaptive-child">adaptive child</div>
+      </section> -->
+      <!-- end adaptive -->
+
+      <!-- begin sizes -->
+      <!-- <img
+      srcset="
+      http://placekitten.com/200/200 200w,
+      http://placekitten.com/400/400 400w,
+      http://placekitten.com/800/800 800w,
+      "
+      sizes="
+      (max-width: 320px) 100px,
+      (max-width: 500px) 250px,
+      (max-width: 600px) 440px,
+      800px
+      "
+      src="http://placekitten.com/200/200"
+      alt="a kitten"
+      > -->
+      <!-- end sizes -->
+
+      <!-- begin resolution switching -->
+      <!-- <div id="kitten-400x400">
+        ​<img srcset="kitten-1x.jpg 1x, kitten-2x.jpg 2x" src="kitten-1x.jpg" alt="This is an image of a kitten">
+      </div> -->
+      <!-- end resolution switching -->
+
+      <!-- begin art direction -->
+      <!-- <picture>
+        <source media="(max-width: 399px)" srcset="http://placekitten.com/200/400"/>
+        <source media="(max-width: 699px)" srcset="http://placekitten.com/400/400"/>
+        <source media="(max-width: 999px)" srcset="http://placekitten.com/800/400"/>
+        <img src="http://placekitten.com/400/400" alt="This is a picture"/>
+      </picture> -->
+      <!-- end art direction -->
+
+      <!-- begin background images -->
+      <!-- <section id="css-art-direction-background-image"></section> -->
+      <!-- end background images -->
+    </main>
+  </body>
+</html>

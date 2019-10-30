@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=UnifrakturMaguntia&display=swap");
+
+html {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #555;
+  font-family: "Garamond", "Times New Roman", Times, serif;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "UnifrakturMaguntia", cursive;
+  margin: 0;
+}
+
+.page-chrome {
+  color: #fff;
+  background: purple;
+}
+
+.page-chrome a {
+  color: #fff;
+}
+
+.page-chrome a:hover {
+  color: lightpink;
+}
+
+main,
+footer {
+  padding: 2rem;
+}
+
+/* header */ 
+
+#page-header {
+  padding-top: 3rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block; 
+  border: 1rem solid purple;
+  background: violet;
+  color: purple;
+  padding: 2rem;
+}
+
+nav a:hover {
+  background: lightpink;
+}
+
+/* main */ 
+main {
+  text-align: center;
+}
+
+main p {
+  text-align: left; 
+}
+
+figure {
+  margin: 2rem auto;
+  max-width: 20rem;
+}
+
+#poe-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-caption {
+  background: lightyellow;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+dl {
+  text-align: left; 
+}
+
+
+blockquote {
+  color: #000;
+  font-weight: 800;
+  font-style: italic;
+  background: #eee;
+  margin: 0 0 2rem;
+  padding: 1rem;
+  text-align: left; 
+}
+
+blockquote::first-line {
+  color: blue;
+}
+
+blockquote::first-letter {
+  font-size: 5rem;
+}
+
+.article-table {
+  border-collapse: collapse;
+  font-family: monospace;
+  text-align: left;
+  margin: 2rem 0;
+  width: 100%;
+  font-size: 1.8rem;
+}
+
+.article-table td {
+  border: 3px dotted #ccc;
+
+}
+
+.article-table caption {
+  display: none;
+}
+
+#signup-form {
+  background: rgba(127, 14, 126, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#signup-form fieldset {
+  border: 0;
+  display: inline-block;
+  padding: 0 0 2rem;
+  vertical-align: top;
+  text-align: left; 
+
+}
+
+#signup-form fieldset > legend {
+  font-family: "UnifrakturMaguntia", cursive;
+}
+
+#signup-form label {
+  display: block;
+  margin-top: 1rem;
+}
+#signup-form .age {
+  margin-top: 2rem;
+}
+
+#signup-form .age label {
+  display: block;
+  background: purple;
+  color: #fff;
+  padding: 2rem;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="tel"],
+#signup-form select {
+  display: block;
+}
+
+#signup-form label > input[type="radio"] {
+  margin-right: 1rem;
+}
+
+#signup-form input[type="submit"] {
+  background: purple;
+  border: 0;
+  color: #fff;
+  font-size: 3rem;
+  padding: 0.5em;
+  text-transform: capitalize;
+}
+
+#signup-form footer {
+  text-align: inherit;
+}
+
+
+/* footer */
+#page-footer {
+  text-align: center;
+}
+#page-footer h3 {
+  margin-top: 4rem;
+}
+
+#page-footer ol,
+#page-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+  text-align: left; 
+}
+#page-footer li {
+  margin-bottom: 2rem;
+}
+#page-footer address {
+  margin-top: 4rem;
+}
+
+/* floating figure */
+
+@media (min-width: 450px) {
+  figure {
+    float: left;
+    margin: 0 2rem 2rem 0;
+  }
+}
+
+
+/*
+  tablet
+*/
+@media (min-width: 550px) {
+  body {
+    font-size: 1.8rem;
+  }
+
+  main,
+  #page-footer {
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  #page-header {
+    display: flex;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    border: 1px solid #000;
+  }
+
+  nav a {
+    padding: .5em;
+    border-width: .1rem;
+  }
+
+  #page-footer ul {
+    columns: 2;
+  }
+}
+
+@media (min-width: 650px) {
+  main {
+    display: flex;
+  }  
+
+  article {
+    margin-right: 2rem;
+  }
+}
+
+/*
+  desktop
+*/
+@media (min-width: 1000px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  #page-header {
+    font-size: 1.8rem;
+  }
+
+  main,
+  #page-footer {
+    padding: 1rem;
+  }
+
+  p {
+    columns: 2;
+  }
+
+  .article-table {
+    width: 50%;
+  }
+}
+
+
+
+

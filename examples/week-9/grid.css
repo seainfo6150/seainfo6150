@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 4rem;
+}
+
+@supports not (display: grid) {
+	.grid-container div { float: left; }
+}
+
+@supports (display: grid) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-container div {
+    border: 0.1rem solid #000;
+    padding: 0 3rem;
+  }
+
+  p {
+    margin: 2rem 0 0;
+  }
+
+  @media only print {
+    body {
+      font-size: 30rem;
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    body {
+      font-size: 3rem;
+    }
+    .grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .grid-container div {
+      padding: 2rem;
+    }
+  }
+
+  @media (min-width: 900px) {
+    body {
+      font-size: 2.4rem;
+    }
+    .grid-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
