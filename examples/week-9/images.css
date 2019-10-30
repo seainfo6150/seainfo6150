@@ -1,0 +1,61 @@
+#firefox {
+  width: 100%;
+  height: auto;
+}
+
+#kitten {
+  max-width: 100%;
+  height: auto;
+}
+
+.kitten-wrapper {
+  background: url(http://placekitten.com/800/600);
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+  min-height: 40rem;
+}
+
+.kitten-wrapper p {
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  font-size: 2rem;
+}
+
+#kitten-wrapper-bg-contain {
+  background-size: contain;
+}
+#kitten-wrapper-bg-cover {
+  background-size: cover;
+}
+#kitten-wrapper-bg-100 {
+  background-size: 100% 100%;
+}
+
+#kitten-400x400 {
+  height: 400px;
+  width: 400px;
+  border: 1px solid red;
+}
+
+#css-art-direction-background-image {
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-image: url(http://placekitten.com/200/200);
+}
+
+@media (min-width: 400px) {
+  #css-art-direction-background-image {
+    height: 400px;
+    width: 400px;
+    background-image: url(http://placekitten.com/400/400);
+  }
+}
+
+@media (min-width: 800px) {
+  #css-art-direction-background-image {
+    height: 800px;
+    width: 800px;
+    background-image: url(http://placekitten.com/800/800);
+  }
+}
