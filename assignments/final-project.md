@@ -17,7 +17,7 @@ You are encouraged to do research and look at other websites that are similar to
 ## Project requirements/notes
 
 ### Design
-Your website must use at least 2 different fonts in some way. Many websites use one font for body text and another for headers. 
+Your website must use **at least** 2 different fonts in some way. Many websites use one font for body text and another for headers. 
 
 ### React
 Your site must be built using the team React app repo. You must have **at least** 5 components that use/consume props in some way.
@@ -26,10 +26,10 @@ Your site must be built using the team React app repo. You must have **at least*
 The HTML for your website must be semantically correct and valid to the best of your ability. I will be validating the site with the W3 HTML Validator (http://validator.w3.org).
 
 ### Layout
-The website should be both responsive and adaptive; you must implement at least 3 breakpoints where the layout updates in an obvious fashion. You also must use both grid and flexbox in some fashion on the site. 
+The website should be both responsive and adaptive; you must implement **at least** 3 breakpoints where the layout updates in an obvious fashion. You also must use both grid and flexbox in some fashion on the site. 
 
 ### Images
-Your website must feature responsive images. In at least 1 place, you must use 1 HTML-based responsive image solution (either the resolution switching or art direction switching solution).
+Your website must feature responsive images. In **at least** 1 place, you must use 1 HTML-based responsive image solution (either the resolution switching or art direction switching solution).
 
 I have included a picture of a treefrog on the team repo homepage as an example of where you can place images and how to reference them from your app.
 
@@ -74,13 +74,13 @@ Total: 28 pages
 
 **You are not required to write/create original content.** You may copy text and images from eleswhere to fill your website. 
 
-You may choose to create static components for your content or use a dynamic data approach.  (Remember that ** at least** 5 components must pass props in some way.) Please refer to the `seainfo6150-webapp` and your week-4, etc. assignment branches for an example of how to push content from a JSON file into your component via props.
+You may choose to create static components for your content or use a dynamic data approach.  (Remember that **at least** 5 components must pass props in some way.) Please refer to the `seainfo6150-webapp` and your week-4, etc. assignment branches for an example of how to push content from a JSON file into your component via props.
 
 ### Form
-Your site must feature at least 1 HTML form with the following elements:
+Your site must feature **at least** 1 HTML form with the following elements:
 - 5 text inputs -- 3 of these inputs must be required and 2 must follow a specific format that can be validated, for example a telephone number, a birthdate, a currency, etc.
 - 2 dropdowns
-- 1 group of radio and/or checkboxes with at least 3 inputs
+- 1 group of radio and/or checkboxes with **at least** 3 inputs
 
 Your website should display the data entered in the form back to the user in a usable, attractive way.
 
@@ -118,13 +118,13 @@ The following pieces should be submitted to me **by 2pm PST, November 13** (ie, 
 Your team should give me 3 look and feel words (eg, "bold", "calm", "fun") that you want your website to convey and an explanation of how your website will convey that **using the design theory concepts discussed in class during week 2**.
 
 #### Wireframes
-You must have wireframes for at least 4 different kinds of template pages. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. 
+You must have wireframes for **at least** 4 different kinds of template pages. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. 
 
 #### Site map
 You must create a sitemap showing all 10 (or more) pages of the site
 
 ### User flows
-You must identify and diagram out at least 3 user flows that you want your user to be able to accomplish on your site. We will use these as the basis for usability testing in week 12. Some example of user flows might be: 
+You must identify and diagram out **at least** 3 user flows that you want your user to be able to accomplish on your site. We will use these as the basis for usability testing in week 12. Some example of user flows might be: 
 
 - A user can travel from the homepage to a product detail page to find the price of a specific product
 - A user can travel from a degree program page to a calendar page to find out how many days are university holidays
@@ -177,8 +177,8 @@ Projects will be evaluated on a 0-125 scale for each of 5 sections. Each section
     <tr>
       <td>2. CSS</td>
       <td>CSS shows mastery, is clearly organized using CSS modules, fully responsive and has more than 3 adaptive breakpoints</td>
-      <td>CSS shows pretty good practices, is mostly to fully responsive and has at least 3 adaptive breakpoints</td>
-      <td>CSS shows OK practices, has some responsiveness and has at least 2 adaptive breakpoints</td>
+      <td>CSS shows pretty good practices, is mostly to fully responsive and has **at least** 3 adaptive breakpoints</td>
+      <td>CSS shows OK practices, has some responsiveness and has **at least** 2 adaptive breakpoints</td>
       <td>CSS is very crude, near non-existent and/or unfinished, is not responsive responsive and/or has 1 or no adaptive breakpoints</td>
     </tr>
     <tr>
