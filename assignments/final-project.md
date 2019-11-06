@@ -25,31 +25,10 @@ Your site must be built using the team React app repo. You must have **at least*
 ### HTML
 The HTML for your website must be semantically correct and valid to the best of your ability. I will be validating the site with the W3 HTML Validator (http://validator.w3.org).
 
-### Routes
-All of the pages should be available via components controlled by a router. This simplifies the process of linking the pages together and gives a straightforward mapping of which component is associated with which URL of the website.
-
-There is already a router implemented with the following routes in place. You will need to update the routes and components in order to set up navigation for your own site.
-
-#### `/`
-corresponds to `http://localhost:3000/` and the `Home` component; the homepage of the website.
-
-#### `/foo`
-corresponds to `http://localhost:3000/foo` and the `Foo` component.
-
-#### `/bar`
-corresponds to `http://localhost:3000/bar/:categoryId/:productId` and the `Bar` component. This gives an example of how you could pass props that come from the URL
-
-#### `/baz`
-corresponds to `http://localhost:3000/baz` and the `Baz` component. This gives an example of how you could pass external content (from a JSON file, for example) as props to your component. 
-
-#### `/404`
-corresponds to `http://localhost:3000/404` and the `Error` component; the 404/error page of the website.
-
-
 ### Layout
 The website should be both responsive and adaptive; you must implement at least 3 breakpoints where the layout updates in an obvious fashion. You also must use both grid and flexbox in some fashion on the site. 
 
-## Images
+### Images
 Your website must feature responsive images. In at least 1 place, you must use 1 HTML-based responsive image solution (either the resolution switching or art direction switching solution).
 
 I have included a picture of a treefrog on the team repo homepage as an example of where you can place images and how to reference them from your app.
@@ -106,6 +85,26 @@ Your site must feature at least 1 HTML form with the following elements:
 Your website should display the data entered in the form back to the user in a usable, attractive way.
 
 I have provided a basic Form component that has a single text input; it demonstrates how to retrieve the contents of a form for display.
+
+## Routes
+All of the pages should be available via components controlled by a router. This simplifies the process of linking the pages together and gives a straightforward mapping of which component is associated with which URL of the website.
+
+There is already a router implemented with the following routes in place. You will need to update the routes and components in order to set up navigation for your own site.
+
+#### `/`
+corresponds to `http://localhost:3000/` and the `Home` component; the homepage of the website.
+
+#### `/foo`
+corresponds to `http://localhost:3000/foo` and the `Foo` component.
+
+#### `/bar`
+corresponds to `http://localhost:3000/bar/:categoryId/:productId` and the `Bar` component. This gives an example of how you could pass props that come from the URL
+
+#### `/baz`
+corresponds to `http://localhost:3000/baz` and the `Baz` component. This gives an example of how you could pass external content (from a JSON file, for example) as props to your component. 
+
+#### `/404`
+corresponds to `http://localhost:3000/404` and the `Error` component; the 404/error page of the website.
 
 
 ## Schedule
