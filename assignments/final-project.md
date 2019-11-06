@@ -16,7 +16,7 @@ You are encouraged to do research and look at other websites that are similar to
 
 ## Project requirements/notes
 
-## Design
+### Design
 Your website must use at least 2 different fonts in some way. Many websites use one font for body text and another for headers. 
 
 ### React
