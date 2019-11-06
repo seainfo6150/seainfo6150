@@ -121,7 +121,7 @@ Your team should give me 3 look and feel words (eg, "bold", "calm", "fun") that 
 You must have wireframes for **at least** 4 different kinds of template pages. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. 
 
 #### Site map
-You must create a sitemap showing all 10 (or more) pages of the site
+You must create a sitemap showing all 20 (or more) pages of the site
 
 ### User flows
 You must identify and diagram out **at least** 3 user flows that you want your user to be able to accomplish on your site. We will use these as the basis for usability testing in week 12. Some example of user flows might be: 
