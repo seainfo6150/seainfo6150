@@ -177,8 +177,8 @@ Projects will be evaluated on a 0-125 scale for each of 5 sections. Each section
     <tr>
       <td>2. CSS</td>
       <td>CSS shows mastery, is clearly organized using CSS modules, fully responsive and has more than 3 adaptive breakpoints</td>
-      <td>CSS shows pretty good practices, is mostly to fully responsive and has **at least** 3 adaptive breakpoints</td>
-      <td>CSS shows OK practices, has some responsiveness and has **at least** 2 adaptive breakpoints</td>
+      <td>CSS shows pretty good practices, is mostly to fully responsive and has 3 adaptive breakpoints</td>
+      <td>CSS shows OK practices, has some responsiveness and has 2 adaptive breakpoints</td>
       <td>CSS is very crude, near non-existent and/or unfinished, is not responsive responsive and/or has 1 or no adaptive breakpoints</td>
     </tr>
     <tr>
