@@ -132,11 +132,18 @@ You must identify and diagram out **at least** 3 user flows that you want your u
 
 
 ### Week 11, November 13
-With your team, you will work on project implementation and come up with the tasks for usability testing during week 12. (More on this TBD.)
-
+With your team, you will work on project implementation.
 
 ### Week 12, November 20
-In class, we will conduct usability testing on each others' websites and provide feedback that teams can use to finalize their projects.
+In class, we will come up with the tasks for usability testing, then conduct usability testing on each others' websites and provide feedback that teams can use to finalize their projects.
+
+Based on the 3 user flow statements that you created in week 10, you should develop 3 __user tasks__ that can be tested. 
+
+For example: 
+If your user flow was something like **A user can find a vegetarian recipe on our website**
+A user task might be **Explore the website and find a vegetarian recipe you would like to cook for dinner tonight**.
+
+You should come up with a user task for each user scenario and be ready to have a classmate use your team's website to complete them. Please reference the resources April sent by email and slack regarding user tasks and usability testing. 
 
 
 ### Week 13, November 27
