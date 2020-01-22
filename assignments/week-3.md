@@ -18,10 +18,6 @@ Mark up the text of the news article with valid, semantically-appropriate HTML. 
 
 Consider block level and inline HTML elements, what kind of text this is and how you should properly cite the author, properly display the date, email address etc. Make sure to validate your text with an HTML validator like http://validator.w3.org!
 
-Note: because you are writing this in the React app, HTML attributes work slightly differently. Most relevant for this assignment, you will use the following attribute for one of your tags: 
-
-`dateTime="2018-11-22"` (note the camelCase syntax)
-
 ## start the webapp
 Verify that the article displays properly in the app. 
 ```
