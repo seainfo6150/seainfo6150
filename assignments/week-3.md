@@ -34,7 +34,7 @@ git push origin week-3
 ```
 
 ## send an email 
-Send an email to Tianyu (wang.tianyu6@husky.neu.edu) with a link to your seainfo6150-webapp fork. 
+Send an email to Tianyu (20spr.info6150@gmail.com) with a link to your seainfo6150-webapp fork. 
 
 <table>
   <caption>Rubric</caption>
