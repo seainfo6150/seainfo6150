@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>DOM Example</title>
+    <style media="screen">
+      .foo { background: #f00; color: #fff; }
+      .bar { border: 2px solid #0c0; }
+      img { height: 100px; width: 100px; }
+    </style>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function(e) {
+        console.log('loaded');
+
+        console.log(document.getElementsByTagName('li'));
+        console.log(document.querySelectorAll('li:nth-of-type(1)'));
+
+        // const lis = document.getElementsByTagName('li')
+        // for (var i = 0; i < lis.length; i++) {
+        //   const li = lis[i];
+        //   console.log(li.style);
+        //   lis[i].style.backgroundColor = '#ccc';
+        // }
+
+        document.getElementById('newContentButton').addEventListener("click", function(e) {
+          console.log('clicked');
+
+          const someText = 'this is some text';
+          const aTextNode = document.createTextNode(someText);
+          console.log('TEXT NODE', aTextNode);
+
+          const aSectionNode = document.createElement('section');
+
+          const aPNode = document.createElement('p');
+
+          aPNode.appendChild(aTextNode);
+
+
+          aPNode.setAttribute('class', 'foo bar');
+          console.log('PARAGRAPH NODE', aPNode);
+          console.log('PARAGRAPH NODE', aPNode.style);
+
+          aPNode.setAttribute('data-fake-attribute', 'bar');
+          aSectionNode.appendChild(aPNode);
+
+          const mainContent = document.getElementById('main-content');
+          mainContent.appendChild(aSectionNode);
+
+          console.log(document.getElementsByTagName('section'));
+          console.log(document.getElementsByTagName('p'));
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <main id="main-content">
+      <!-- This is a comment -->
+      <!-- This is another comment -->
+      <button id="newContentButton">Click me for new content</button>
+      <ol style="background: #f00">
+        <li><a href="dom-example.html">Foo</a></li>
+        <li><a href="dom-example.html">Bar</a></li>
+        <li><a href="dom-example.html">Baz</a></li>
+        <li><a href="dom-example.html">Wow</a></li>
+      </ol>
+
+  <dl class="">
+    <dt>Term</dt>
+    <dd>Description</dd>
+
+    <dt>Semantic html</dt>
+    <dd>Using HTML for content structure and not presentation</dd>
+
+    <figure>
+      <figcaption>This is a tree frog</figcaption> 
+      <img height="100" width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Laubfrosch_cropped.jpg/800px-Laubfrosch_cropped.jpg" alt="This is a tree frog">
+    </figure>
+
+  </dl>
+
+<header>
+  <h3>This is a h1 header</h3>
+  <h4>this is subheader</h4>
+</header>
+
+<hgroup>
+  <h3>This is a h1 header</h3>
+  <h4>this is subheader</h4>
+</hgroup>
+<h2>This is a h2 header</h2>
+<h3>This is a h3 header</h3>
+<h4>This is a h4 header</h4>
+<h5>This is a h5 header</h5>
+<h6>This is a h6 header</h6>
+
+      <table>
+        <tr>
+
+          <td>This is a table</table>
+        </tr>
+
+      </table>
+
+    </main>
+  </body>
+</html>
