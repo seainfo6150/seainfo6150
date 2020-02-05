@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=UnifrakturMaguntia&display=swap");
+
+html {
+  font-size: 10px;
+}
+body {
+  color: #555;
+  font-family: "Garamond", "Times New Roman", Times, serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "UnifrakturMaguntia", cursive;
+}
+
+address {
+  border-bottom: 5px double purple;
+  border-top: 5px double purple;
+  font-style: normal;
+  margin: 2rem 0;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 3rem;
+}
+
+.highlighted {
+  background: yellow;
+}
+
+.crazy-highlighted {
+  text-decoration: wavy green underline;
+}
+
+#page-header {
+  padding: 3rem;
+}
+
+#page-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#page-header nav {
+  overflow: auto;
+}
+
+#page-header ul > li {
+  float: left;
+}
+
+#page-header ul > li + li {
+  margin-left: 1rem;
+}
+
+#page-footer {
+  padding: 1rem 3rem;
+}
+
+#page-footer li + li {
+  margin-top: 1rem;
+}
+
+.page-chrome {
+  color: #fff;
+  background: purple;
+}
+
+.page-chrome a {
+  color: #fff;
+}
+.page-chrome a:hover {
+  color: violet;
+}
+.page-chrome a:visited {
+  color: violet;
+}
+.page-chrome a:active {
+  color: fuchsia;
+}
+
+#article-header {
+  text-align: center;
+}
+
+#article-header address a {
+  font-weight: bold;
+}
+
+#article-title {
+  font-size: 5rem;
+}
+
+.article-section {
+  border-bottom: 5px double purple;
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.writing-section {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.writing-section + .writing-section {
+  border-top: 1px dashed purple;
+}
+
+figure {
+  border: 10px outset purple;
+  /* position: relative; */
+}
+
+figure:hover .image-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+#poe-photo {
+  float: left;
+  margin-left: 0;
+  width: 200px;
+}
+
+.image-caption {
+  background: lightyellow;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+blockquote {
+  color: #000;
+  font-weight: 800;
+  font-style: italic;
+}
+
+blockquote::first-line {
+  color: blue;
+}
+
+blockquote::first-letter {
+  font-size: 5rem;
+}
+
+.article-table {
+  border-collapse: collapse;
+  border: 3px dotted #ccc;
+  font-family: monospace;
+}
+
+.article-table caption {
+  display: none;
+}
+
+.article-table th,
+.article-table td {
+  border: 3px dotted #ccc;
+  padding: 2rem;
+}
+
+.article-table th {
+  color: purple;
+}
+
+#signup-form {
+  background: rgba(127, 14, 126, 0.1);
+  padding: 2rem;
+  position: relative;
+}
+
+#signup-form fieldset {
+  border: 0;
+  display: inline-block;
+  padding: 0 0 2rem;
+  vertical-align: top;
+}
+
+#signup-form fieldset > legend {
+  font-family: "UnifrakturMaguntia", cursive;
+}
+
+#signup-form label {
+  display: block;
+  margin-top: 1rem;
+}
+#signup-form .age label {
+  display: inline-block;
+}
+
+
+#signup-form .age label ~ label {
+    background: purple;
+    color: #fff;
+}
+
+#signup-form .age label:first-child + label {
+    background: #f00;
+    color: #fff;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="tel"],
+#signup-form select {
+  display: block;
+}
+
+#signup-form label > input[type="radio"] {
+  margin-right: 1rem;
+}
+
+#signup-form input[type="submit"] {
+  background: purple;
+  border: 0;
+  color: #fff;
+  font-size: 5rem;
+  padding: 0.5em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: capitalize;
+}
+
+#favorite-work option:first-child {
+    background: purple;
+    color: #fff;
+}

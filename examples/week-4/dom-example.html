@@ -14,12 +14,12 @@
         console.log(document.getElementsByTagName('li'));
         console.log(document.querySelectorAll('li:nth-of-type(1)'));
 
-        // const lis = document.getElementsByTagName('li')
-        // for (var i = 0; i < lis.length; i++) {
-        //   const li = lis[i];
-        //   console.log(li.style);
-        //   lis[i].style.backgroundColor = '#ccc';
-        // }
+        const lis = document.getElementsByTagName('li')
+        for (var i = 0; i < lis.length; i++) {
+          const li = lis[i];
+          console.log(li.style);
+          lis[i].style.backgroundColor = '#ccc';
+        }
 
         document.getElementById('newContentButton').addEventListener("click", function(e) {
           console.log('clicked');
