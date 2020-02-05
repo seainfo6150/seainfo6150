@@ -1,6 +1,5 @@
 # INFO6150 Week 5 Assignments
-Due by the beginning of class, week 6 (October 9).
-You may revise once by the beginning of class, week 7 (October 16).
+Due by the beginning of class, week 6 (February 12).
 
 This week you will be practicing working in the web app, creating a branch from an existing branch, creating a couple of React components and adding styling. 
 
@@ -51,7 +50,7 @@ git push origin week-5
 ```
 
 ## send an email 
-Send an email to Yiwei (luo.yiw@husky.neu.edu) with a link to your seainfo6150-webapp fork. 
+Send an email to Tianyu (20spr.info6150@gmail.com) with a link to your seainfo6150-webapp fork. 
 
 <table>
   <caption>Rubric</caption>
