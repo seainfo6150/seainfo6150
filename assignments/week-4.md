@@ -29,7 +29,7 @@ You should create valid, semantically-appropriate HTML to display the following 
 Consider block level and inline HTML elements, how you should properly display the date, etc. Make sure to validate your text with an HTML validator like http://validator.w3.org!
 
 Note: for this assignment, since pubDate is not a machine-readable format, you will use the following attribute for one of your tags: 
-`datetime={props.article.pubYear}`
+`dateTime={props.article.pubYear}`
 
 ### a button! 
 Your component should also include a button that says "show article slug" and, when clicked, displays an alert message that displays the "slug" attribute of the article. In the `seainfo6150-webapp` repo, there are a couple of example components that show you how create a button and call a handler. These were demonstrated in class, also. 
