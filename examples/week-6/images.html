@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Images example</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>Image formats</h1>
+
+    <h2>Img tags</h2>
+    <div><img src="treefrog.jpg" alt="tree frog" /></div>
+    <div><img src="../week-4/treefrog.jpg" alt="tree frog" /></div>
+    <div><img src="https://raw.githubusercontent.com/aprilbingham-neu/seainfo6150/master/examples/week-6/treefrog.jpg" alt="tree frog" /></div>
+    <dl>
+      <dt>SVG</dt>
+      <dd><img id="firefox-svg" src="firefox.svg" alt="firefox logo" /></dd>
+      <dt>GIF</dt>
+      <dd><img id="firefox-gif" src="firefox.gif" alt="firefox logo" /></dd>
+      <dt>JPG, high quality</dt>
+      <dd><img id="firefox-jpg-12" src="firefox-12.jpg" alt="firefox logo" /></dd>
+      <dt>JPG, medium quality</dt>
+      <dd><img id="firefox-jpg-6" src="firefox-6.jpg" alt="firefox logo" /></dd>
+      <dt>JPG, low quality</dt>
+      <dd><img id="firefox-jpg-1" src="firefox-1.jpg" alt="firefox logo" /></dd>
+      <dt>PNG, transparent</dt>
+      <dd><img id="firefox-png" src="firefox.png" alt="firefox logo" /></dd>
+    </dl>
+
+    <h2>SVG in HTML</h2>
+    <svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" data-name="Circle - Large">
+      <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+      <g id="circle1" class="layer">
+        <title>Layer 1</title>
+        <circle cx="175.5" cy="271.5" fill="#FF0000" id="svg_3" r="131.24405" stroke="#000000" stroke-width="5"/>
+      </g>
+      <g id="circle2" class="layer">
+        <title>Layer 1</title>
+        <circle cx="175.5" cy="600" id="svg_3" r="131.24405" stroke-width="5"/>
+      </g>
+    </svg>
+    <h2>SVG as Data URI src</h2>
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNCIgaGVpZ2h0PSIxMDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNlPSJodHRwOi8vc3ZnLWVkaXQuZ29vZ2xlY29kZS5jb20iIGRhdGEtbmFtZT0iQ2lyY2xlIC0gTGFyZ2UiPgogICAgICA8IS0tIENyZWF0ZWQgd2l0aCBTVkctZWRpdCAtIGh0dHBzOi8vZ2l0aHViLmNvbS9TVkctRWRpdC9zdmdlZGl0LS0+CiAgICAgIDxnIGlkPSJjaXJjbGUxIiBjbGFzcz0ibGF5ZXIiPgogICAgICAgIDx0aXRsZT5MYXllciAxPC90aXRsZT4KICAgICAgICA8Y2lyY2xlIGN4PSIxNzUuNSIgY3k9IjI3MS41IiBmaWxsPSIjRkYwMDAwIiBpZD0ic3ZnXzMiIHI9IjEzMS4yNDQwNSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjUiLz4KICAgICAgPC9nPgo8L3N2Zz4=">
+
+    <h2>SVG as Data URI</h2>
+    <div id="background-circle-datauri">Circle</div>
+
+    <h2>Image as background</h2>
+    <h3 id="background-firefox-svg">Firefox logo</h3>
+    <div id="background-firefox-png">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur neque sed velit eleifend, nec mollis diam sollicitudin. Donec pulvinar justo lorem, sed sollicitudin tellus facilisis et. Vivamus consequat, enim at vehicula maximus, ex nunc pellentesque urna, ut semper magna nibh sit amet nunc. Phasellus elit metus, ultricies quis neque eget, fermentum iaculis eros. Sed varius, est vel sodales ultrices, ipsum ipsum lobortis nisi, ut tincidunt risus odio non elit. Nam egestas nisi sed enim efficitur tincidunt sit amet aliquet neque. Quisque tempor felis sed purus commodo dictum. Maecenas venenatis enim tortor, nec vehicula nisl porta id.</p>
+
+      <p>Nunc consectetur dolor dolor, vel rutrum turpis accumsan sed. Fusce in risus viverra neque lacinia luctus. Sed id felis vulputate, varius nulla ac, tincidunt est. Aliquam non interdum metus. In suscipit vel mauris sed suscipit. Nullam placerat volutpat dolor, et maximus orci. Vestibulum suscipit semper augue. Pellentesque mattis, felis at sollicitudin faucibus, eros lectus scelerisque justo, eu malesuada risus justo quis quam. In imperdiet vitae purus rutrum ultricies. Nulla in tempor odio.</p>
+
+      <p>Donec a molestie massa. Quisque eu leo odio. Cras facilisis lacus eget nisi posuere efficitur. Donec mattis leo et risus facilisis egestas. Vestibulum mi nulla, malesuada in interdum elementum, tristique sit amet tellus. Fusce quis accumsan ante. Aenean id est sed mauris euismod tincidunt. Morbi dapibus accumsan ex et ornare. Nullam egestas nisl justo, nec fringilla augue iaculis a. Integer auctor erat metus, eu interdum urna egestas non. Ut gravida porta volutpat. Donec condimentum risus risus, at semper diam laoreet a. Donec accumsan risus non lectus mollis luctus a vitae ipsum. Maecenas facilisis quis nisl a consequat.</p>
+    </div>
+
+    <h2>Linear Gradients</h2>
+    <h3 id="linear-gradient" class="gradient">Top to bottom gradient</h3>
+    <h3 id="linear-gradient-ltr" class="gradient">Left to right gradient</h3>
+    <h3 id="linear-gradient-top-left-bottom-right" class="gradient">Diagonal gradient</h3>
+    <h3 id="linear-gradient-top-right-bottom-left" class="gradient">Diagonal gradient</h3>
+    <h3 id="linear-gradient-rainbow" class="gradient">4 color gradient</h3>
+    <h3 id="linear-gradient-color-stop" class="gradient">Gradient with color stop</h3>
+    <h3 id="linear-gradient-color-stop-line" class="gradient">Gradient with color stop line</h3>
+
+    <h2>Radial Gradients</h2>
+    <h3 id="radial-gradient" class="gradient">Centered gradient</h3>
+    <h3 id="radial-gradient-circle" class="gradient">Circular gradient</h3>
+    <h3 id="radial-gradient-rainbow" class="gradient">4 color gradient</h3>
+    <h3 id="radial-gradient-top-right" class="gradient">Circular gradient at top right</h3>
+    <h3 id="radial-gradient-color-stop-line" class="gradient">Circular gradient with color stop line</h3>
+
+    <h2>Shadows</h2>
+    <div id="shadow-zero-offset" class="shadow">Zero offset</div>
+    <div id="shadow-positive-positive" class="shadow">Positive horizontal and vertical</div>
+    <div id="shadow-positive-negative" class="shadow">Positive horizontal, negative vertical</div>
+    <div id="shadow-negative-positive" class="shadow">Negative horizontal, positive vertical</div>
+    <div id="shadow-negative-negative" class="shadow">Negative horizontal, negative vertical</div>
+    <div id="shadow-zero-blur" class="shadow">Zero blur</div>
+    <div id="shadow-zero-spread" class="shadow">Zero spread</div>
+    <div id="shadow-color" class="shadow">Color with .5 opacity</div>
+    <div id="shadow-inset" class="shadow">Inset shadow</div>
+    <div id="shadow-multiple" class="shadow">Multiple shadows</div>
+
+    <h2>Animation</h2>
+    <section id="animation">
+      <div id="animated-box"></div>
+    </section>
+  </body>
+</html>
