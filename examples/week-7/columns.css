@@ -1,14 +1,17 @@
 main {
-    column-count: 5;
-    /* column-width: 150px;
+  column-count: 5;
+    /*      
     columns: 150px;
+    column-width: 150px;
+    column-gap: 50px;   
     columns: 20 8em;
-    column-gap: 50px; */
+    column-gap: 50px;
+    */
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 p + p {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
