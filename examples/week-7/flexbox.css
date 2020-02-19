@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  border: 1px solid #000;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.flex-tall {
+  height: 200px;
+}
+
+.flex-container > div {
+  background: #ccc;
+  text-align: center;
+  width: 100px;
+  border: 1px solid #999;
+}
+
+/* wrapping */
+#nowrap {
+  flex-flow: row nowrap;
+}
+#wrap {
+  flex-flow: row wrap;
+}
+#wrap-reverse {
+  flex-flow: row wrap-reverse;
+}
+
+/* reverse */
+#reverse {
+  flex-flow: row-reverse;
+}
+
+/* justify */
+#justify-start {
+  justify-content: flex-start;
+}
+#justify-end {
+  justify-content: flex-end;
+}
+#justify-center {
+  justify-content: center;
+}
+#justify-around {
+  justify-content: space-around;
+}
+#justify-between {
+  justify-content: space-between;
+}
+#justify-evenly {
+  justify-content: space-evenly;
+}
+
+/* align items */
+#align-items-start {
+  align-items: flex-start;
+}
+#align-items-end {
+  align-items: flex-end;
+}
+#align-items-center {
+  align-items: center;
+}
+#align-items-baseline {
+  align-items: baseline;
+}
+#align-items-stretch {
+  align-items: stretch;
+}
+/* align items */
+#align-items-start {
+  align-items: flex-start;
+}
+#align-items-end {
+  align-items: flex-end;
+}
+#align-items-center {
+  align-items: center;
+}
+#align-items-baseline {
+  align-items: baseline;
+}
+#align-items-stretch {
+  align-items: stretch;
+}
+
+/* align content */
+#align-content-start {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 500px;
+}
+#align-content-end {
+  flex-wrap: wrap;
+  align-content: flex-end;
+  width: 500px;
+}
+#align-content-center {
+  flex-wrap: wrap;
+  align-content: center;
+  width: 500px;
+}
+#align-content-around {
+  flex-wrap: wrap;
+  align-content: space-around;
+  width: 500px;
+}
+#align-content-between {
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 500px;
+}
+#align-content-stretch {
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 500px;
+}
+
+/* order */
+#flex-order #one {
+  order: 3;
+}
+#flex-order #two {
+  order: 4;
+}
+#flex-order #three {
+  order: 5;
+}
+#flex-order #four {
+  order: 1;
+}
+#flex-order #five {
+  order: 2;
+}
+
+/* flex grow */
+.flex-grow {
+  width: 1002px;
+}
+#flex-grow-last-child > div:last-child {
+  flex-grow: 1;
+}
+#flex-grow-third-child > div:nth-child(3) {
+  flex-grow: 1;
+}
+#flex-grow-all-children > div {
+  flex-grow: 1;
+}
+#flex-grow-multi > div:nth-child(1) {
+  flex-grow: 1;
+}
+#flex-grow-multi > div:nth-child(2) {
+  flex-grow: 2;
+}
+#flex-grow-multi > div:nth-child(3) {
+  flex-grow: 3;
+}
+
+/* flex shrink */
+.flex-shrink {
+  width: 502px;
+}
+.flex-shrink > div {
+  width: 200px;
+}
+#flex-shrink-all-children > div {
+  flex-shrink: 1;
+}
+#flex-shrink > div {
+  flex-shrink: 0;
+}
+#flex-shrink-last-child > div:last-child {
+  flex-shrink: 2;
+}
+#flex-shrink-third-child > div:nth-child(3) {
+  flex-shrink: 2;
+}
+#flex-shrink-multi > div:nth-child(1) {
+  flex-shrink: 1;
+}
+#flex-shrink-multi > div:nth-child(2) {
+  flex-shrink: 2;
+}
+#flex-shrink-multi > div:nth-child(3) {
+  flex-shrink: 3;
+}
+
+/* flex basis */
+#flex-basis {
+  width: 1002px;
+}
+#flex-basis > div {
+  flex-basis: 500px;
+}
+
+/* align self */
+.flex-align-self {
+  align-items: flex-start;
+}
+#align-self-start > div:nth-child(1) {
+  align-self: flex-start;
+}
+#align-self-end > div:nth-child(1) {
+  align-self: flex-end;
+}
+#align-self-center > div:nth-child(1) {
+  align-self: center;
+}
+#align-self-baseline {
+  align-items: center;
+}
+#align-self-baseline > div,
+#align-self-baseline > h3 {
+  align-self: baseline;
+}
+#align-self-stretch > div:nth-child(1) {
+  align-self: stretch;
+}

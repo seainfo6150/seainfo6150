@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flexbox example</title>
+    <link rel="stylesheet" href="flexbox.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Flex</h1>
+      <h2>Wrapping</h2>
+      <div id="nowrap" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="wrap" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="wrap-reverse" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <hr>
+      <h2>Reverse</h2>
+      <div id="reverse" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <hr>
+      <h2>Justify</h2>
+      <div id="justify-start" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="justify-center" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="justify-end" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="justify-around" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="justify-between" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="justify-evenly" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <hr>
+      <h2>Align items</h2>
+      <div id="align-items-start" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-items-center" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-items-end" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-items-baseline" class="flex-tall flex-container">
+        <div>1</div>
+        <h3>A header</h3>
+        <p>some words</p>
+        <p style="font-size: 5rem;">big words</p>
+        <img src="./treefrog.jpg" alt="treefrog" style="height: 50px;" />
+      </div>
+      <div id="align-items-stretch" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <hr>
+      <h2>Align content</h2>
+      <div id="align-content-start" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-content-center" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-content-end" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-content-around" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-content-between" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-content-stretch" class="flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div> 
+      <hr>    
+      <h2>Order</h2>
+      <div id="flex-order" class="flex-container">
+        <div id="one">1</div>
+        <div id="two">2</div>
+        <div id="three">3</div>
+        <div id="four">4</div>
+        <div id="five">5</div>
+      </div>      
+      <hr>    
+      <h2>Flex grow</h2>
+      <div id="flex-grow" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-last-child" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-third-child" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-all-children" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-multi" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>   
+      <hr>     
+      <h2>Flex shrink</h2>
+      <div id="flex-shrink" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-shrink-all-children" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-shrink-last-child" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-shrink-third-child" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>               
+      <div id="flex-shrink-all-children" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>               
+      <div id="flex-shrink-multi" class="flex-shrink flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>    
+      <h2>Flex grow</h2>
+      <div id="flex-grow" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-last-child" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-third-child" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-all-children" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>        
+      <div id="flex-grow-multi" class="flex-grow flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div> 
+      <hr>       
+      <h2>Flex basis</h2>
+      <div id="flex-basis" class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>   
+      <hr>
+      <h2>Align self</h2>
+      <div id="align-self-start" class="flex-align-self flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-self-center" class="flex-align-self flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-self-end" class="flex-align-self flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>
+      <div id="align-self-baseline" class="flex-align-self flex-tall flex-container">
+        <div>1</div>
+        <h3>A header</h3>
+        <p>some words</p>
+        <p style="font-size: 5rem;">big words</p>
+        <img src="./treefrog.jpg" alt="treefrog" style="height: 50px;" />
+      </div>
+      <div id="align-self-stretch" class="flex-align-self flex-tall flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+      </div>                    
+    </main>
+  </body>
+</html>
