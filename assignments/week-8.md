@@ -27,7 +27,7 @@ npm start
 
 ## save it
 
-save and commit your work to the week-9 branch and push to your fork
+save and commit your work to the week-8 branch and push to your fork
 
 ```
 git add .
@@ -42,7 +42,7 @@ Send an email to Tianyu (20spr.info6150@gmail.com) with a link to your seainfo61
   <caption>Rubric</caption>
   <tbody>
     <tr>
-      <td>Created and saved assignment to week-9 branch</td>
+      <td>Created and saved assignment to week-8 branch</td>
       <td>1</td>
     </tr>
     <tr>
