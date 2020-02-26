@@ -11,7 +11,7 @@ You will be using the components you created last week for this week's assignmen
 cd seainfo6150-webapp
 git checkout week-7
 git pull upstream master
-git checkout --b week-8
+git checkout -b week-8
 ```
 
 ## add media queries
