@@ -25,10 +25,13 @@ Your website must use **at least** 2 different fonts in some way. Many websites 
 ### React
 Your site must be built using the final project React app repo April will set up for you. You must have **at least** 5 components that accept props in some way and display dynamic data.
 
+For example, you might have components that use props to:
+- display the user's name based on what they entered in a form
+- display different content based on which button was clicked on
+- filter opetions in a list based on some criteria the user selected
+
 **THESE ARE ONLY IDEAS, YOU ARE NOT REQUIRED TO CHOOSE FROM THIS LIST.**
-- the site displays the user's name based on what they entered in a form
-- the site displays different content based on which button was clicked on
-- the site has a filter that lets the user remove options based on some criteria
+
 
 ### HTML
 The HTML for your website must be semantically correct and valid to the best of your ability. I will be validating the site with the W3 HTML Validator (http://validator.w3.org).
