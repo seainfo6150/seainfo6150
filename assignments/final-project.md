@@ -52,7 +52,8 @@ Your website must feature a homepage for your website. The name of your website 
 
 Your homepage (as well as the rest of the site) should use good principles of usability and accessibility discussed in class.
 
-### <a id="template-pages>Template pages</a>
+### Template pages
+<a id="template-pages"></a>
 Your website must feature **at least** 5 different kinds of template pages. 
 
 Some examples of different template pages for a website that sells a certain kind of product might be: 
@@ -127,7 +128,7 @@ corresponds to `http://localhost:3000/404` and the `Error` component; the 404/er
 ### Week 10, March 11
 I will upload the project requirements and be available during our regular class period (2pm-5pm) via Slack for any real-time questions you may have regarding the project. 
 
-During the Week 10 class period, you should 
+During Week 10, you should 
 * decide if you are working individually or on a team
 * decide what kind of website you want to develop 
 * work on look and feel, wireframes, user flows and sitemap for the website
