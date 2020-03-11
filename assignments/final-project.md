@@ -152,7 +152,7 @@ You must submit a list of all the class members who will be working on the websi
 Your team should give me 3 look and feel words (eg, "bold", "calm", "fun") that you want your website to convey and an explanation of how your website will convey that **using the design theory concepts discussed in class during week 2**.
 
 #### 3. Wireframes
-You must have wireframes for **at least 4 different kinds of template pages**. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. (see the <a href="#template-pages">template pages section</a> above.)
+You must have wireframes for **at least 5 different kinds of template pages**. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. (see the <a href="#template-pages">template pages section</a> above.)
 
 #### 4. Site map
 You must create a sitemap showing all the pages of the site. (Please see the <a href="#content">content section</a> for more information.)
