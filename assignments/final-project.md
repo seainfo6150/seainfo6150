@@ -135,6 +135,7 @@ corresponds to `http://localhost:3000/404` and the `Error` component; the 404/er
 ## Schedule
 
 ### Week 10, March 11
+<a id="week-10"></a>
 I will upload the project requirements and be available during our regular class period (2pm-5pm) via Slack for any real-time questions you may have regarding the project. 
 
 During Week 10, you should 
