@@ -203,12 +203,12 @@ You should have all work committed to the final project repo by class period, **
 This project is worth 30% of your final grade. 
 
 ### Final website
-## Due by class period, 2pm PST, April 15
+#### Due by class period, 2pm PST, April 15
 
-### IF YOU ARE WORKING INDIVIDUALLY
+#### IF YOU ARE WORKING INDIVIDUALLY
 15% of your final grade will be the total score of the website produced based on the rubric below. 
 
-### IF YOU ARE WORKING ON A TEAM
+#### IF YOU ARE WORKING ON A TEAM
 5% of your final grade will be the total score of the website produced based on the rubric below. The same score will be awarded identically among all team members.
 
 Projects will be evaluated on a 0-125 scale for each of 5 sections. Each section score will be multiplied by .20 and the 5 sections will be added together to calculate the final 0-125 score. (Scores above 100 will be counted as extra credit towards your final grade.)
@@ -267,7 +267,7 @@ Projects will be evaluated on a 0-125 scale for each of 5 sections. Each section
 
 
 ### Journal/writeup
-## Due by midnight PST, April 15
+#### Due by midnight PST, April 15
 
 15% of your final grade will be your individual score as determined by the level of effort/participation detailed in your project journal/writeup. You should keep this journal while you are working on the project as a record of your individual participation.
 
@@ -307,14 +307,14 @@ Journals/writeups that are late will have 5% deducted from the maximum score pos
 
 
 ### Peer evaluation
-## Due by midnight PST, April 15
+#### Due by midnight PST, April 15
 
 **Peer evaluations are only required if you are working as part of a team.**
 10% of your final grade will be the average score of the evaluations submitted by the other members of your team. April will provide a link and instructions for peer evaluations. 
 
 
 ### Extra credit project presentation
-## Due by midnight PST, April 22
+#### Due by midnight PST, April 22
 For each individual/team project completing this extra credit, I will add 3% to the overall class grade to each member who worked on the project. 
 
 Create a presentation that demonstrates your final project. This could be a screen recording which steps through the various pages/features, a powerpoint with screenshots of the various pages, a video of your demonstration, or something more creative! 
