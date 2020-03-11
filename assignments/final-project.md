@@ -172,8 +172,9 @@ You will come up with tasks for usability testing.
 
 Based on the 3 user flow statements that you created in week 10, you should develop 3 __user tasks__ that can be tested. 
 
-For example: 
-If your user flow was something like **A user can find a vegetarian recipe on our website**
+For example:
+
+If your user flow was something like **A user can find a vegetarian recipe on our website**</br>
 A user task might be **Explore the website and find a vegetarian recipe you would like to cook for dinner tonight**.
 
 You should come up with a user task for each user scenario and be ready to have someone use your team's website to complete them. (This is TBD and I will send further communications to clarify.)
