@@ -179,14 +179,14 @@ A user task might be **Explore the website and find a vegetarian recipe you woul
 You should come up with a user task for each user scenario and be ready to have someone use your team's website to complete them. (This is TBD and I will send further communications to clarify.)
 
 Here are some resources on usability tests and writing user tasks that may be helpful to read:
-https://www.nngroup.com/articles/better-usability-tasks/
-https://adamfard.com/ux-design-blog/how-to-successfully-conduct-user-testing-in-6-simple-steps/
-https://medium.com/@CanvasFlip/creating-task-scenarios-that-improves-usability-test-results-eece56959d19
-https://blog.testlodge.com/usability-testing-examples/
-https://uxplanet.org/how-to-conduct-a-usability-test-in-six-steps-from-start-to-finish-4082e8d57858
-https://medium.com/user-research/user-research-basics-creating-a-test-and-script-bef65496292c
-https://www.nngroup.com/articles/task-scenarios-usability-testing/
-https://blog.maze.design/write-great-usability-tasks/ (edited) 
+* https://www.nngroup.com/articles/better-usability-tasks/
+* https://adamfard.com/ux-design-blog/how-to-successfully-conduct-user-testing-in-6-simple-steps/
+* https://medium.com/@CanvasFlip/creating-task-scenarios-that-improves-usability-test-results-eece56959d19
+* https://blog.testlodge.com/usability-testing-examples/
+* https://uxplanet.org/how-to-conduct-a-usability-test-in-six-steps-from-start-to-finish-4082e8d57858
+* https://medium.com/user-research/user-research-basics-creating-a-test-and-script-bef65496292c
+* https://www.nngroup.com/articles/task-scenarios-usability-testing/
+* https://blog.maze.design/write-great-usability-tasks/ (edited) 
 
 During this week, you should also work on project implementation. Depending on what I decide to do for usability testing, I may or may not be available during this class period for questions. 
 
