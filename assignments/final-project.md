@@ -70,6 +70,7 @@ Some examples of different template pages for a website that sells a certain kin
  **THESE ARE ONLY IDEAS, YOU ARE NOT REQUIRED TO FOLLOW THIS LIST EXACTLY.**
 
 ### Content
+<a id="content"></a>
 
 **IF YOU ARE WORKING INDIVIDUALLY**
 Your website must feature **at least** 10 distinct content pages. 
@@ -153,7 +154,7 @@ Your team should give me 3 look and feel words (eg, "bold", "calm", "fun") that 
 You must have wireframes for **at least 4 different kinds of template pages**. Some examples of different templates might be: Home page, a page of product categories, an individual product detail page, a text-based page like an About page. (see the <a href="#template-pages">template pages section</a> above.)
 
 #### 4. Site map
-You must create a sitemap showing all 20 (or more) pages of the site
+You must create a sitemap showing all the pages of the site. (Please see the <a href="#content">content section</a> for more information.)
 
 #### 5. User flows
 You must identify and diagram out **at least** 3 user flows that you want your user to be able to accomplish on your site. Some example of user flows might be: 
