@@ -67,9 +67,14 @@ Some examples of different template pages for a website that sells a certain kin
  **THESE ARE ONLY IDEAS, YOU ARE NOT REQUIRED TO FOLLOW THIS LIST EXACTLY.**
 
 ### Content
-Your website must feature **at least** 25 distinct content pages. 
 
-If your team buit a site that sold 15 kinds of products in 5 categories, your pages might be numbered as follows: 
+**IF YOU ARE WORKING INDIVIDUALLY**
+Your website must feature **at least** 10 distinct content pages. 
+
+**IF YOU ARE WORKING AS PART OF A TEAM**
+Your website must feature **at least** 30 distinct content pages. 
+
+For example, if your website sold 15 kinds of products in 5 categories, your pages might be numbered as follows: 
 
 - (1) Homepage
 - (1) All Categories page
@@ -84,7 +89,7 @@ If your team buit a site that sold 15 kinds of products in 5 categories, your pa
 
 Total: 28 pages
 
- **THESE ARE ONLY IDEAS, YOU ARE NOT REQUIRED TO FOLLOW THIS LIST EXACTLY.**
+**THESE ARE ONLY IDEAS, YOU ARE NOT REQUIRED TO FOLLOW THIS LIST EXACTLY.**
 
 **You are not required to write/create original content.** You may copy text and images from eleswhere to fill your website. 
 
@@ -136,7 +141,7 @@ During Week 10, you should
 **The following pieces should be submitted to me by 2pm PST, March 18** (ie, the beginning of Week 11 class) so that I can sign off on your project. You can email them, share them in a Word doc, send me a Framebox link, etc.
 
 #### 1. The class members who will be working on your website
-You must submit a list of all the class members who will be working on the website, their email addresses and the github profile they use for the class. Please do this even if you are working individually. This will allow me to set up a repository for your project.
+You must submit a list of all the class members who will be working on the website, their email addresses and the github profile they use for the class. Please do this even if you are working individually. This will allow me to set up a repository for your project. If you choose to work as part of a team, you must form your own team; I will not be assigning teammembers. **If you choose to form a team, please limit the number of team members to no more than 4.** 
 
 #### 2. Look and feel
 Your team should give me 3 look and feel words (eg, "bold", "calm", "fun") that you want your website to convey and an explanation of how your website will convey that **using the design theory concepts discussed in class during week 2**.
