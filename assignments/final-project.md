@@ -131,6 +131,11 @@ corresponds to `http://localhost:3000/baz` and the `Baz` component. This gives a
 #### `/404`
 corresponds to `http://localhost:3000/404` and the `Error` component; the 404/error page of the website.
 
+### A note about 3rd-party libraries like bootstrap, etc.
+While I have not explicitly prohibited 3rd party libraries like bootstrap, etc. I strongly advise against using them, as they can add extra HTML and CSS that could interfere with your code. **You are responsible for any invalid HTML/CSS that results from 3rd party code and I will grade accordingly!** I have had teams in the past be marked down significantly because of libraries they chose to use.
+
+Remember, this project is a chance to showcase what YOU have learned over this semester, not simply what libraries you can choose!
+
 
 ## Schedule
 
