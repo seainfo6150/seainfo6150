@@ -187,7 +187,9 @@ For example:
 If your user flow was something like **A user can find a vegetarian recipe on our website**</br>
 A user task might be **Explore the website and find a vegetarian recipe you would like to cook for dinner tonight**.
 
-You should come up with a user task for each user scenario and be ready to have someone use your team's website to complete them. (This is TBD and I will send further communications to clarify.)
+You should come up with a user task for each user scenario and be ready to have someone use your team's website to complete them. 
+
+**User tasks are due by midnight PDT, April 5.**
 
 Here are some resources on usability tests and writing user tasks that may be helpful to read:
 * https://www.nngroup.com/articles/better-usability-tasks/
@@ -197,13 +199,12 @@ Here are some resources on usability tests and writing user tasks that may be he
 * https://uxplanet.org/how-to-conduct-a-usability-test-in-six-steps-from-start-to-finish-4082e8d57858
 * https://medium.com/user-research/user-research-basics-creating-a-test-and-script-bef65496292c
 * https://www.nngroup.com/articles/task-scenarios-usability-testing/
-* https://blog.maze.design/write-great-usability-tasks/ (edited) 
+* https://blog.maze.design/write-great-usability-tasks/
 
-During this week, you should also work on project implementation. Depending on what I decide to do for usability testing, I may or may not be available during this class period for questions. 
+During this week, you should also work on project implementation. I will be available during our regular class period (2pm-5pm) via Slack for any real-time questions you may have regarding the project.  
 
 ### Week 14, April 8
-You will work on project implementation and incorporating feedback from usability testing. I will be available during our regular class period (2pm-5pm) via Slack for any real-time questions you may have regarding the project. 
-
+You will work on project implementation. I will be conducting usability tests during our regular class period (2pm-5pm) and **will not** be available for questions during this time. You may reach out via email or Slack and I will get back to you! I will have all usability feedback to teams by Friday, April 10.
 
 ### Week 15, April 15
 You should have all work committed to the final project repo by class period, **ie by 2pm PST**. Personal journals/writeups should be shared in a document or emailed to a.bingham@northeastern.edu **by midnight PST, April 15**. Peer evaluations (if applicable) should be submitted **by midnight PST, April 15**.
