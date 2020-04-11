@@ -209,14 +209,14 @@ During this week, you should also work on project implementation. I will be avai
 You will work on project implementation. I will be conducting usability tests during our regular class period (2pm-5pm) and **will not** be available for questions during this time. You may reach out via email or Slack and I will get back to you! I will have all usability feedback to teams by Friday, April 10.
 
 ### Week 15, April 15
-You should have all work committed to the final project repo by class period, **ie by 2pm PST**. Personal journals/writeups should be shared in a document or emailed to a.bingham@northeastern.edu **by midnight PST, April 15**. Peer evaluations (if applicable) should be submitted **by midnight PST, April 15**.
+You should have all work committed to the final project repo by class period, **ie by 2pm PDT**. Personal journals/writeups should be shared in a document or emailed to a.bingham@northeastern.edu **by midnight PDT, April 16**. Peer evaluations (if applicable) should be submitted **by midnight PDT, April 16**.
 
 
 ## Rubric
 This project is worth 30% of your final grade. 
 
 ### Final website
-#### Due by class period, 2pm PST, April 15
+#### Due by class period, 2pm PDT, April 15
 
 #### IF YOU ARE WORKING INDIVIDUALLY
 15% of your final grade will be the total score of the website produced based on the rubric below. 
@@ -280,7 +280,7 @@ Projects will be evaluated on a 0-125 scale for each of 5 sections. Each section
 
 
 ### Journal/writeup
-#### Due by midnight PST, April 15
+#### Due by midnight PDT, April 16
 
 15% of your final grade will be your individual score as determined by the level of effort/participation detailed in your project journal/writeup. You should keep this journal while you are working on the project as a record of your individual participation.
 
@@ -320,16 +320,16 @@ Journals/writeups that are late will have 5% deducted from the maximum score pos
 
 
 ### Peer evaluation
-#### Due by midnight PST, April 15
+#### Due by midnight PDT, April 16
 
 **Peer evaluations are only required if you are working as part of a team.**
 10% of your final grade will be the average score of the evaluations submitted by the other members of your team. April will provide a link and instructions for peer evaluations. 
 
 
 ### Extra credit project presentation
-#### Due by midnight PST, April 22
+#### Due by midnight PDT, April 22
 For each individual/team project completing this extra credit, I will add 3% to the overall class grade to each member who worked on the project. 
 
 Create a presentation that demonstrates your final project. This could be a screen recording which steps through the various pages/features, a powerpoint with screenshots of the various pages, a video of your demonstration, or something more creative! 
 
-**The presentation must be submitted to me by midnight PST, April 22. Late submissions will be awarded no extra credit.** 
+**The presentation must be submitted to me by midnight PDT, April 22. Late submissions will be awarded no extra credit.** 
